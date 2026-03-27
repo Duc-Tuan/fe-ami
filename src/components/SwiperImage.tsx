@@ -119,7 +119,7 @@ export default function SwiperImage() {
         {/* Custom Navigation Buttons */}
         <button
           ref={prevRef}
-          className="hidden lg:block cursor-pointer absolute top-[40%] -left-3 lg:-left-7 z-200 bg-gray-500 p-3 rounded-full rotate-180 hover:bg-[var(--color-primary)] shadow-sm hover:shadow-white transition-all"
+          className="hidden lg:block cursor-pointer absolute top-[40%] -left-3 lg:-left-7 z-10 bg-gray-500 p-3 rounded-full rotate-180 hover:bg-[var(--color-primary)] shadow-sm hover:shadow-white transition-all"
           data-aos="fade-up"
           data-aos-easing="ease-in-sine"
         >
@@ -127,7 +127,7 @@ export default function SwiperImage() {
         </button>
         <button
           ref={nextRef}
-          className="hidden lg:block cursor-pointer absolute top-[40%] -right-3 lg:right-7 z-200 bg-gray-500 p-3 rounded-full hover:bg-[var(--color-primary)] shadow-sm hover:shadow-white transition-all"
+          className="hidden lg:block cursor-pointer absolute top-[40%] -right-3 lg:right-7 z-10 bg-gray-500 p-3 rounded-full hover:bg-[var(--color-primary)] shadow-sm hover:shadow-white transition-all"
           data-aos="fade-up"
           data-aos-easing="ease-in-sine"
         >
