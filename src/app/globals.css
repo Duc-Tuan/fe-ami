@@ -103,11 +103,17 @@ html {
 }
 
 .parallax-banner {
-  background-image: url("@/assets/images/banner.png");
+  background-image: url("../assets/images/banner.png");
   background-attachment: fixed;
   background-position: center 5%;
   background-repeat: no-repeat;
   background-size: 100% 130vh;
+}
+
+@media (max-width: 430px) {
+  .parallax-banner {
+    background-attachment: scroll !important;
+  }
 }
 
 .bg-images {
@@ -115,10 +121,10 @@ html {
 }
 
 .bg-images.imge-khoi-nguon {
-  background-image: url("@/assets/images/image.png");
+  background-image: url("../assets/images/image.png");
 }
 .bg-images.imge-khoi-nguon-mobile {
-  background-image: url("@/assets/images/Imagekhoinguonmobile.png");
+  background-image: url("../assets/images/Imagekhoinguonmobile.png");
 }
 
 .custom-color-text,
